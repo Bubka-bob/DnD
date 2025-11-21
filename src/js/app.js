@@ -1,5 +1,5 @@
 // app.js
-import { saveCards, loadCards } from "./localstorage";
+import { saveCards, loadCards } from "./localStorage";
 
 export default function createCard(textContent) {
   const card = document.createElement("div");
